@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Local env files (the repo root .env is the single source; ignore any local duplicates)
+.env
+.env.local
+.env.*.local

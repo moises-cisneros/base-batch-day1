@@ -1,0 +1,16 @@
+{
+  "name": "bbp-scripts",
+  "version": "1.0.0",
+  "description": "Node scripts to interact with the Greeter message-board contract using ethers v6",
+  "type": "module",
+  "scripts": {
+    "send": "node sendMessage.js",
+    "read": "node readMessages.js",
+    "list": "node listUsers.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "ethers": "^6.9.0",
+    "viem": "^1.1.0"
+  }
+}
